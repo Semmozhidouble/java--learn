@@ -31,7 +31,7 @@ public class NonStatic {
     double cube(double number){
         return number * number * number;
     }
-    //non static boolean method
+    //non static boolean method 
     boolean agecheck(int age){
         if(age>=18){
             return true;

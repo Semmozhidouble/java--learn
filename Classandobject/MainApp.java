@@ -1,14 +1,14 @@
 package Classandobject;
 public class MainApp{
     public static void main(String[] args){
-        //object creation
-        Vehicle car=new Vehicle();
+        Car car=new Car();
         //assign values to object variables
         car.brand="supra";
         System.out.println("Brand:"+car.brand);
         //methods calls(object behavior)
         car.speed=0;
         car.start();
+        car.openAc();
         car.accelerate();
         car.accelerate();
         car.stop();

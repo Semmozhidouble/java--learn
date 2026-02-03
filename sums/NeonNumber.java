@@ -1,4 +1,4 @@
-package operator;
+package sums;
 import java.util.Scanner;
 public class NeonNumber {
     public static void main(String[] args){

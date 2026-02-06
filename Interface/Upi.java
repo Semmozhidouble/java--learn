@@ -8,16 +8,26 @@ public class Upi {
         double amount=sc.nextDouble();
         PaymentService payment=new UpiPayment();
         payment.pay(amount);
+        payment=new GpayPayment();
+        payment.pay(amount);
+        sc.close();
     }
 interface PaymentService{
     void pay(double amount);
 
     
 }
-class UpiPayment implements PaymentService{
-    public static void pay(double amount){
-        System.out.println("payment"+amount+"via upi");
+static class UpiPayment implements PaymentService{
+    @Override
+    public void pay(double amount){
+        System.out.println("payment "+amount+ " via upi");
     }
+}
+static class GpayPayment implements PaymentService{
+    @Override
+    public void pay(double amount){
+    System.out.println("payment "+amount+ " via Gpay");
+}
 }
 
     

@@ -8,7 +8,10 @@ public class MainClass {
         animal=new Dog();
         animal.sound();
         animal=new Cat();
-        animal.sound();     
+        animal.sound();    
+        animal=new Tiger();
+        animal.sound(); 
+
 }
 static class Animal{
     void sound(){
@@ -22,11 +25,19 @@ static class Dog extends Animal{
     System.out.println("Dog barks");
 }
 }
-static class Cat extends Animal{
+static class Cat extends Dog{
     @Override
     void sound(){
         System.out.println("cat meows");
     }
 }
-
+static class Tiger extends Cat{
+    @Override
+    void sound(){
+        System.out.println("tiger roars");
+    }
+}
+static void perform(Animal animal){
+    animal.sound();
+}
 }

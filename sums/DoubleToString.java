@@ -7,7 +7,6 @@ public class DoubleToString {
         System.out.println("Enter the double");
         double d=sc.nextDouble();
         String str=String.valueOf(d);
-        System.out.println(d);
         System.out.println(str);
         sc.close();
         

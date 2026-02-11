@@ -24,5 +24,6 @@ public class Magic {
         } else {
             System.out.println("It is not a magic number");
         }
+        sc.close();
     }
 }

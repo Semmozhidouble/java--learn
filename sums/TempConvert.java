@@ -9,6 +9,7 @@ public class TempConvert {
         float c= sc.nextFloat();
         float f=(c*9/5)+32;
         System.out.println("The fahrenhet are: "+f);
+        
 
     }
     

@@ -22,6 +22,7 @@ public class KaprekarNumber {
 
 
     }
+    sc.close();
     
 }
 }

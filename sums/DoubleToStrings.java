@@ -13,7 +13,7 @@ public class DoubleToStrings {
         if(integer==0){
             System.out.println("0");
         }
-        
+        sc.close();
 
         
 

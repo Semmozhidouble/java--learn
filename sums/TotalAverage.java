@@ -11,6 +11,7 @@ public class TotalAverage {
         float average=total/3.0f;
         System.out.println("total="+total);
         System.out.println("aVERAGE="+average);
+        sc.close();
 
     }
     

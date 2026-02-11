@@ -18,6 +18,7 @@ public class NeonNumber {
         }else{
             System.out.println("It is not a neon number");
         }
+        sc.close();
     }
     
 }

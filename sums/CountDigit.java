@@ -13,6 +13,7 @@ public class CountDigit {
 
         }
         System.out.println("Number of count are:"+count);
+        sc.close();
 
     }
     

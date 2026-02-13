@@ -12,6 +12,7 @@ public class PatternShape{
                 System.out.print("*");
             }
         }
+        sc.close();
     
     }
 

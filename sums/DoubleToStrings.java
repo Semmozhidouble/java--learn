@@ -14,8 +14,5 @@ public class DoubleToStrings {
             System.out.println("0");
         }
         sc.close();
-
-        
-
     }
 }

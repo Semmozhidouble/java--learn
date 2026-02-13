@@ -7,6 +7,7 @@ public class CharFromAToZ {
         for(int i='A';i<='Z';i++){
             System.out.println(i);
         }
+        sc.close();
         
         
 
